@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>文件预览Demo</title>
+     <!-- jquery -->
+     <script src="./plugIns/jquery-3.2.1.min.js"></script>
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="./plugIns/bootstrap-3.3.7/css/bootstrap.min.css">
+    <script src="./plugIns/bootstrap-3.3.7/js/bootstrap.min.js" charset="utf-8"></script>
+    <!-- webuploader -->
+     <link rel="stylesheet" type="text/css" href="./plugIns/webuploader-0.1.5/webuploader.css">
+     <script type="text/javascript" src="./plugIns/webuploader-0.1.5/webuploader.min.js"></script>
+	 <script type="text/javascript"  src="../upload.js"></script>
+     <!-- font-awesome -->
+     <link rel="stylesheet" href="./plugIns/font-awesome-4.7.0/css/font-awesome.min.css">
+     <link rel="stylesheet" href="./css/filepreview/preview.css">
+ </head>
+ 
+ <body>
+    <div class="container" style="padding-top:150px;">
+        <div>
+            <div class="list">
+ 
+            </div>
+         </div>
+         <div id="uploader" class="wu-example">
+            <!--用来存放文件信息-->
+             <div id="thelist" class="uploader-list"></div>
+             <div class="btns">
+                <div id="picker">选择文件</div>
+                 <button id="ctlBtn" class="btn btn-default">开始上传</button>
+             </div>
+         </div>
+     </div>
+    <div class="load">
+         <img src="./images/loading.gif" alt="">
+    </div>
+ </body>
+ <script src="./js/filepreview/preview.js" charset="utf-8"></script>
+ <script src="./js/filepreview/upload.js" charset="utf-8"></script>
+ </html>
